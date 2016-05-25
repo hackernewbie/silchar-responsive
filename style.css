@@ -10,6 +10,10 @@
 	background-color: #ffffff; /*White*/
 	color: #555555;
 }
+.background4{
+	background-color: #808080;
+	color:#ffffff;
+}
 .container-fluid{
 	padding-top: 10px;
 	padding-bottom: 70px;
@@ -18,4 +22,25 @@
 	display:inline !important;	/*Forces image to be center-aligned over-riding the display:block that the img-responsive class adds*/
 	/*Remove comment below to make the first image take the entire screen */
 	/*width: 100%;*/
+}
+.navbar{
+	/*Master header menu*/
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 0px;
+	border-radius: 1px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+.navbar-nav li a:hover{
+	color: #1abc9c !important;
+}
+.footer-bg{
+	background-color: #2f2f2f;
+	color: #ffffff;
+}
+.thumbnail-image-padding{
+	padding-bottom: 15px;
 }
