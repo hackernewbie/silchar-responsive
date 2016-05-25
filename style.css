@@ -1,0 +1,21 @@
+.background1{
+	background-color: #1abc9c; /* Green */
+    color: #ffffff;
+}
+.background2{
+	background-color: #474e5d; /*Dark Blue*/
+	color: #ffffff;
+}
+.background3{
+	background-color: #ffffff; /*White*/
+	color: #555555;
+}
+.container-fluid{
+	padding-top: 10px;
+	padding-bottom: 70px;
+}
+.inline{				
+	display:inline !important;	/*Forces image to be center-aligned over-riding the display:block that the img-responsive class adds*/
+	/*Remove comment below to make the first image take the entire screen */
+	/*width: 100%;*/
+}
